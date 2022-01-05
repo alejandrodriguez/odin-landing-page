@@ -1,5 +1,11 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
     display: flex;
+    justify-content: space-between;
 }
 
 ul {
@@ -7,16 +13,25 @@ ul {
     padding: 0;
     list-style-type: none;
     display: flex;
+    gap: 12px;
 }
 
 .title {
     display: flex;
 }
 
+.body h1 {
+    text-align: center;
+}
+
 .hot {
     display: flex;
 }
 
-img {
+.hot img{
     width: 200px;
+}
+
+.footer {
+    text-align: center;
 }
