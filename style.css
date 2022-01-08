@@ -1,12 +1,11 @@
 body {
-    display: flex;
-    flex-direction: column;
     margin: 0;
 }
 
-.div-inception {
+.top-background {
     background-color: #1F2937;
-    min-width: fit-content;
+    background-size: cover;
+    display: flex;
 }
 
 .top {
@@ -36,13 +35,18 @@ ul {
     color: #E5E7EB;
 }
 
+.info > * {
+    margin: 8px 0px;
+}
+
 .main-image {
+    max-width: 100%;
     width: 500px;
-    height: 300px;
+    height: 250px;
     object-fit: cover;
 }
 
-.main h1 {
+h1 {
     font-size: 48px;
     font-weight: 900;
 }
@@ -77,10 +81,17 @@ button:active {
     text-align: center;
 }
 
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+}
+
 .hot {
     display: flex;
     justify-content: center;
     gap: 40px;
+    text-align: center;
 }
 
 .hot img{
@@ -91,12 +102,30 @@ button:active {
     border-radius: 10px;
 }
 
-.quote {
+.hot p {
+    max-width: 250px;
+}
+
+.quote-background {
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 100px;
+}
+
+.quote-div {
     font-size: 36px;
     font-weight: 100;
     font-style: italic;
     color: #1F2937;
+}
+
+#einstein {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: right;
 }
 
 .call-to-action {
@@ -104,7 +133,7 @@ button:active {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 100px;
+    margin: 100px 150px;
     color: white;
     padding: 20px;
     border-radius: 15px;
@@ -126,4 +155,6 @@ h3 {
 
 .footer {
     text-align: center;
+    background-color: #1F2937;
+    color: white;
 }
