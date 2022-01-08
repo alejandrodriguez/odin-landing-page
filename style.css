@@ -111,7 +111,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-content: center;
-    padding: 100px;
+    padding: 50px 100px;
 }
 
 .quote-div {
